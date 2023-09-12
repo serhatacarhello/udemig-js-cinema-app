@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <!-- fontawesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    />
+    <title>Udemig Dream Hall</title>
+  </head>
+  <body>
+    <div class="background"></div>
+    <div class="container">
+      <!-- screen -->
+      <div class="screen">
+        <h4>Udemig hall</h4>
+        <img src="./logo.png" alt="logo-img" class="logo-img" />
+      </div>
+      <!-- screen -->
+
+      <!-- seats -->
+      <div class="seats-container">
+        <!-- First Seat Row -->
+        <div class="seatRow">
+          <div class="seat reserved">
+            <i class="fa-solid fa-chair"></i>
+          </div>
+          <div class="seat">
+            <i class="fa-solid fa-chair"></i>
+          </div>
+          <div class="seat">
+            <i class="fa-solid fa-chair"></i>
+          </div>
+          <div class="seat">
+            <i class="fa-solid fa-chair"></i>
+          </div>
+          <div class="seat">
+            <i class="fa-solid fa-chair"></i>
+          </div>
+          <div class="seat">
+            <i class="fa-solid fa-chair"></i>
+          </div>
+          <div class="seat">
+            <i class="fa-solid fa-chair"></i>
+          </div>
+          <div class="seat">
+            <i class="fa-solid fa-chair"></i>
+          </div>
+        </div>
+
+        <!-- Second Seat Row -->
+        <div class="seatRow">
+          <div class="seat">
+            <i class="fa-solid fa-chair"></i>
+          </div>
+          <div class="seat">
+            <i class="fa-solid fa-chair"></i>
+          </div>
+          <div class="seat">
+            <i class="fa-solid fa-chair"></i>
+          </div>
+          <div class="seat">
+            <i class="fa-solid fa-chair"></i>
+          </div>
+          <div class="seat">
+            <i class="fa-solid fa-chair"></i>
+          </div>
+          <div class="seat">
+            <i class="fa-solid fa-chair"></i>
+          </div>
+          <div class="seat">
+            <i class="fa-solid fa-chair"></i>
+          </div>
+          <div class="seat">
+            <i class="fa-solid fa-chair"></i>
+          </div>
+        </div>
+
+        <!-- Third Seat Row -->
+        <div class="seatRow">
+          <div class="seat">
+            <i class="fa-solid fa-chair"></i>
+          </div>
+          <div class="seat">
+            <i class="fa-solid fa-chair"></i>
+          </div>
+          <div class="seat">
+            <i class="fa-solid fa-chair"></i>
+          </div>
+          <div class="seat">
+            <i class="fa-solid fa-chair"></i>
+          </div>
+          <div class="seat">
+            <i class="fa-solid fa-chair"></i>
+          </div>
+          <div class="seat">
+            <i class="fa-solid fa-chair"></i>
+          </div>
+          <div class="seat">
+            <i class="fa-solid fa-chair"></i>
+          </div>
+          <div class="seat">
+            <i class="fa-solid fa-chair"></i>
+          </div>
+        </div>
+
+        <!-- Fourth Seat Row -->
+        <div class="seatRow">
+          <div class="seat">
+            <i class="fa-solid fa-chair"></i>
+          </div>
+          <div class="seat">
+            <i class="fa-solid fa-chair"></i>
+          </div>
+          <div class="seat">
+            <i class="fa-solid fa-chair"></i>
+          </div>
+          <div class="seat">
+            <i class="fa-solid fa-chair"></i>
+          </div>
+          <div class="seat">
+            <i class="fa-solid fa-chair"></i>
+          </div>
+          <div class="seat">
+            <i class="fa-solid fa-chair"></i>
+          </div>
+          <div class="seat">
+            <i class="fa-solid fa-chair"></i>
+          </div>
+          <div class="seat">
+            <i class="fa-solid fa-chair"></i>
+          </div>
+        </div>
+
+        <!-- Fifth Seat Row -->
+        <div class="seatRow">
+          <div class="seat">
+            <i class="fa-solid fa-chair"></i>
+          </div>
+          <div class="seat">
+            <i class="fa-solid fa-chair"></i>
+          </div>
+          <div class="seat">
+            <i class="fa-solid fa-chair"></i>
+          </div>
+          <div class="seat">
+            <i class="fa-solid fa-chair"></i>
+          </div>
+          <div class="seat">
+            <i class="fa-solid fa-chair"></i>
+          </div>
+          <div class="seat">
+            <i class="fa-solid fa-chair"></i>
+          </div>
+          <div class="seat">
+            <i class="fa-solid fa-chair"></i>
+          </div>
+          <div class="seat">
+            <i class="fa-solid fa-chair"></i>
+          </div>
+        </div>
+      </div>
+      <!-- seats -->
+      <!-- select area start -->
+      <div class="movie-list">
+        <label for="movie-select">Choose a movie:</label>
+        <select name="select" id="movie-select">
+          <option value="10">Movie 1</option>
+          <option value="15">Movie 2</option>
+          <option value="20">Movie 3</option>
+        </select>
+      </div>
+
+      <!-- select area finish -->
+
+      <!-- Seat info area start -->
+
+      <ul class="seat-info">
+        <li>
+          <div class="seat reserved info">
+            <i class="fa-solid fa-chair"></i>
+            <span>Reserved</span>
+          </div>
+        </li>
+        <li>
+          <div class="seat selected info">
+            <i class="fa-solid fa-chair"></i>
+            <span>Selected</span>
+          </div>
+        </li>
+        <li>
+          <div class="seat info">
+            <i class="fa-solid fa-chair"></i>
+            <span>Available</span>
+          </div>
+        </li>
+      </ul>
+      <!-- Seat info area finish -->
+      <!-- Total -->
+      <div class="info-text">
+        <p>
+          Seat count&nbsp;<span id="count">0</span> and total price
+          <span id="total">0</span>&nbsp;$
+        </p>
+      </div>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>
